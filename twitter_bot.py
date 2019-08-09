@@ -35,7 +35,7 @@ def _delete_tweets(count=20):
 
 
 def post_tweets():
-    """ Post images or gifs at an interval of `INTERVAL` seconds  """
+    """ Post images or gifs at an interval of `INTERVAL` seconds. """
     while True:
         post_media()
         sleep(60)
